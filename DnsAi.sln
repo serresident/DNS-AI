@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{828ECF04-4A2A-4E67-8604-BCF7C1DA46FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnsAi.App", "src\DnsAi.App\DnsAi.App.csproj", "{4211561C-B912-4CCA-8575-0F78E5D2F1B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{29D26DF4-4569-4E36-BAA5-28002B533EDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnsAi.Tests", "tests\DnsAi.Tests\DnsAi.Tests.csproj", "{EC0C7260-3235-415D-BA82-FD2B2D31927F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4211561C-B912-4CCA-8575-0F78E5D2F1B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4211561C-B912-4CCA-8575-0F78E5D2F1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4211561C-B912-4CCA-8575-0F78E5D2F1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4211561C-B912-4CCA-8575-0F78E5D2F1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC0C7260-3235-415D-BA82-FD2B2D31927F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC0C7260-3235-415D-BA82-FD2B2D31927F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC0C7260-3235-415D-BA82-FD2B2D31927F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC0C7260-3235-415D-BA82-FD2B2D31927F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4211561C-B912-4CCA-8575-0F78E5D2F1B5} = {828ECF04-4A2A-4E67-8604-BCF7C1DA46FC}
+		{EC0C7260-3235-415D-BA82-FD2B2D31927F} = {29D26DF4-4569-4E36-BAA5-28002B533EDA}
+	EndGlobalSection
+EndGlobal

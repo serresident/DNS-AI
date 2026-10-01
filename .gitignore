@@ -1,0 +1,23 @@
+# Build and Output
+bin/
+obj/
+publish/
+TestResults/
+
+# Visual Studio / Rider / IDEs
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Logs
+*.log

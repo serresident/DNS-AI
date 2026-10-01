@@ -1,0 +1,25 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="DnsAi.App.App"
+             RequestedThemeVariant="Dark">
+
+    <Application.Styles>
+        <FluentTheme />
+    </Application.Styles>
+
+    <TrayIcon.Icons>
+        <TrayIcons>
+            <TrayIcon Icon="/Assets/icon.ico" ToolTipText="DNS-AI — Шифрованный DNS" Clicked="TrayIcon_OnClicked">
+                <TrayIcon.Menu>
+                    <NativeMenu>
+                        <NativeMenuItem Header="Открыть DNS-AI" Click="OnMenuOpenClicked" />
+                        <NativeMenuItemSeparator />
+                        <NativeMenuItem Header="Очистить кэш DNS" Click="OnMenuFlushClicked" />
+                        <NativeMenuItemSeparator />
+                        <NativeMenuItem Header="Выход" Click="OnMenuExitClicked" />
+                    </NativeMenu>
+                </TrayIcon.Menu>
+            </TrayIcon>
+        </TrayIcons>
+    </TrayIcon.Icons>
+</Application>
