@@ -74,4 +74,12 @@ public class DnsAiIntegrationTests
         Assert.NotNull(ip);
         Assert.NotEqual("N/A", ip);
     }
+
+    [Fact]
+    public void App_AssetsIconExists()
+    {
+        var asm = typeof(DnsAi.App.App).Assembly;
+        var names = asm.GetManifestResourceNames();
+        Assert.Contains("!AvaloniaResources", names);
+    }
 }

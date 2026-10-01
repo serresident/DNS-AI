@@ -9,7 +9,7 @@
 
     <TrayIcon.Icons>
         <TrayIcons>
-            <TrayIcon Icon="/Assets/icon.ico" ToolTipText="DNS-AI — Шифрованный DNS" Clicked="TrayIcon_OnClicked">
+            <TrayIcon Icon="avares://dns-ai/Assets/icon.ico" ToolTipText="DNS-AI — Шифрованный DNS" Clicked="TrayIcon_OnClicked">
                 <TrayIcon.Menu>
                     <NativeMenu>
                         <NativeMenuItem Header="Открыть DNS-AI" Click="OnMenuOpenClicked" />
